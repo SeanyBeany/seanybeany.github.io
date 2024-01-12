@@ -1,13 +1,50 @@
+<!-- Starter file -->
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
-    <script src="https://cdn.tailwindcss.com/"></script>
-</head>
-<body class="flex min-h-screen flex-col items-center justify-center bg-gradient-to-br from-cyan-400 to-sky-600">
-    <h1 class="text-5xl font-thin select-none text-white">Shawn's Website</h1>
-</body>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Go to swhalen.ca</title>
+	</head>
+	<body>
+            <!-- This is a comment -->
+                    <!-- Notice the filename - in this case it's in the same directory as the web page -->
+            <img src="BadlandsChuggsTheOcean.jpg"> <!-- TODO: change to your photo -->
+            <br/>
+            <a href="https://github.com/SeanyBeany">Github</a> | <!-- TODO: add your stuff
+                                            (Instagram?, snapchat?) -->
+            <a href="http://cs.unb.ca">UNB Faculty of Computer Science</a> |
+            <a href="http://cs.unb.ca/profs/wightman">Rick's Faculty Page</a>
+            <a href="https://www.instagram.com/badlandsbooker/?hl=en">BadlandsChuggsTheOcean</a>
+            <h1>Shawn Whalen</h1>			<!-- TODO -->
+            <hr/>
+            <h2>Stuff I Like</h2>
+            <!-- Unordered list
+                        Want an *ordered* list? Try <ol></ol> tags instead -->
+            <ul>
+                <li>Gaming</li>			<!-- TODO -->
+                <li>Sleeping</li>			<!-- TODO -->
+                <li>Owning</li>		<!-- TODO -->
+            </ul>
+            <h2>Some Music</h2>
+            <!-- This is the HTML5 GoodStuff(tm) Notice that the audio file is inside a folder named "music"
+                in the same location as the html file, and so the path to the file reflects this -->
+            <audio controls>
+                <source src="music/River Flows In You.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <h2>Family Video</h2>
+            <!-- More of the HTML5 GoodStuff(tm). Notice now that this part uses an address (URL) since it's on another 
+                machine on the web -->
+            <video width="400" controls>
+                <source src="GuyOwning.mp4" type="video/mp4">
+                    Your browser does not support the HTML5 video element. <!-- TODO: add your stuff -->
+            </video>
+            <br/>
+            <h2>Favourite Food Processor</h2>
+            <!-- Lots of people make their content available through webAPIs -->
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/Amn6C_Gw8O8" frameborder="0" allowfullscreen>
+            </iframe> <!-- TODO: add your stuff -->
+           
+	</body>
 </html>
